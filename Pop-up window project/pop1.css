@@ -1,0 +1,67 @@
+.class-1
+{
+    display: none;
+}
+.class-2
+{
+    background:  rgb(0, 255, 255);
+    width: 70%;
+    padding: 30px;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation : 1s drop;
+}
+@keyframes drop
+{
+    0%
+    {
+        top: -100px;
+    }
+    
+    100%
+    {
+        top: 50%;
+    }
+}
+
+.close
+{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-size: 40px;
+    cursor: pointer; 
+}
+
+section
+{
+    margin: 0;
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    transition: 2s;
+    
+}
+.btn1
+{
+    margin: 0;
+    position : absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    background-color: blue;
+    margin: 4px 2px;
+    width: 40%;
+    height: 20%;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+}
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
